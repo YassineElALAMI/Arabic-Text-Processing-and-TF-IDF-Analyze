@@ -1,0 +1,5 @@
+com\myorg\nlp\Preprocessor.class
+com\myorg\nlp\TfIdfCalculator.class
+com\myorg\nlp\App.class
+com\myorg\nlp\StopWordsLoader.class
+com\myorg\nlp\Main.class

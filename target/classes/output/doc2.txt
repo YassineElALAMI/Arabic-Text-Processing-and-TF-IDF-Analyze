@@ -1,22 +1,22 @@
 Top TF-IDF terms for doc2.txt
 
-تقليل                0,07495
-القادمة              0,07495
-العربية              0,04223
-اثارا                0,03748
-مستدام               0,03748
-للاجيال              0,03748
-التعاون              0,03748
-بييي                 0,03748
-متزايدة              0,03748
-لمواجهة              0,03748
-البييي               0,03748
-مستقبل               0,03748
-محطات                0,03748
-الجفاف               0,03748
-الطاقة               0,03748
-للطاقة               0,03748
-المتجددة             0,03748
-تواجه                0,03748
-يحذرون               0,03748
-الانبعاثات           0,03748
+Word = تقليل, Stemming_results = [{type = STEM, morpheme = تقليل}] 0,07495
+Word = القادمه, Stemming_results = [{type = STEM, morpheme = قادم}] 0,07495
+Word = العربيه, Stemming_results = [{type = STEM, morpheme = عرب}] 0,04223
+Word = بيئي, Stemming_results = [{type = STEM, morpheme = بيا}] 0,03748
+Word = نور, Stemming_results = [{type = STEM, morpheme = نور}] 0,03748
+Word = كافيه, Stemming_results = [{type = STEM, morpheme = كاف}] 0,03748
+Word = اعتماد, Stemming_results = [{type = STEM, morpheme = اعتماد}] 0,03748
+Word = للتغير, Stemming_results = [{type = STEM, morpheme = تغير}] 0,03748
+Word = ضروريا, Stemming_results = [{type = STEM, morpheme = ضروري}] 0,03748
+Word = لمواجهه, Stemming_results = [{type = STEM, morpheme = واجه}] 0,03748
+Word = للاجيال, Stemming_results = [{type = STEM, morpheme = اجيال}] 0,03748
+Word = الفحم, Stemming_results = [{type = STEM, morpheme = فحم}] 0,03748
+Word = للطاقه, Stemming_results = [{type = STEM, morpheme = طاق}] 0,03748
+Word = المتجدده, Stemming_results = [{type = STEM, morpheme = متجدد}] 0,03748
+Word = ويسهم, Stemming_results = [{type = STEM, morpheme = س}] 0,03748
+Word = استراتيجيه, Stemming_results = [{type = STEM, morpheme = استراتيج}] 0,03748
+Word = والنفط, Stemming_results = [{type = STEM, morpheme = نفط}] 0,03748
+Word = تهدف, Stemming_results = [{type = STEM, morpheme = تهدف}] 0,03748
+Word = تواجه, Stemming_results = [{type = STEM, morpheme = تواج}] 0,03748
+Word = ورزازات, Stemming_results = [{type = STEM, morpheme = ورزاز}] 0,03748

@@ -1,51 +1,51 @@
 Map d'occurrences pour doc4.txt
 
-عمل                  1
-العاملين             1
-السيارات             1
-الموسسات             1
-مجالات               1
-اساسيا               1
-تحليل                1
-البشرية              1
-سيخلق                1
-الاصطناعي            2
-يري                  1
-الهواتف              1
-لتشمل                1
-جديدة                1
-التطور               1
-سيودي                1
-القيادة              1
-ذوي                  1
-والبرمجة             1
-وصيانة               1
-اخرون                1
-اتساع                1
-الانظمة              1
-الذكية               2
-فقدان                1
-فرص                  1
-المهارات             1
-البيانات             1
-الباحثين             1
-مهارات               1
-المستقبل             1
-يخشي                 1
-جزءا                 1
-والاخرين             1
-التقنية              1
-المناهج              1
-الوظايف              1
-بتحديث               1
-حياتنا               1
-ذاتية                1
-النقدي               1
-اليومية              1
-الفجوة               1
-توصي                 1
-التعليمية            1
-التفكير              1
-السوال               1
-الذكاء               2
-المطروح              1
+Word = السؤال, Stemming_results = [{type = STEM, morpheme = ساال}] 1
+Word = المناهج, Stemming_results = [{type = STEM, morpheme = مناهج}] 1
+Word = المستقبل, Stemming_results = [{type = STEM, morpheme = مستقبل}] 1
+Word = مهارات, Stemming_results = [{type = STEM, morpheme = مهار}] 1
+Word = مجالات, Stemming_results = [{type = STEM, morpheme = مجال}] 1
+Word = ذوي, Stemming_results = [{type = STEM, morpheme = ذو}] 1
+Word = الانظمه, Stemming_results = [{type = STEM, morpheme = انظم}] 1
+Word = والبرمجه, Stemming_results = [{type = STEM, morpheme = برمج}] 1
+Word = يخشي, Stemming_results = [{type = STEM, morpheme = يخش}] 1
+Word = الهواتف, Stemming_results = [{type = STEM, morpheme = هواتف}] 1
+Word = اخرون, Stemming_results = [{type = STEM, morpheme = اخر}] 1
+Word = عمل, Stemming_results = [{type = STEM, morpheme = عمل}] 1
+Word = توصي, Stemming_results = [{type = STEM, morpheme = توص}] 1
+Word = لتشمل, Stemming_results = [{type = STEM, morpheme = شمل}] 1
+Word = التفكير, Stemming_results = [{type = STEM, morpheme = تفكير}] 1
+Word = القياده, Stemming_results = [{type = STEM, morpheme = قياد}] 1
+Word = بتحديث, Stemming_results = [{type = STEM, morpheme = حديث}] 1
+Word = البشريه, Stemming_results = [{type = STEM, morpheme = بشر}] 1
+Word = ذاتيه, Stemming_results = [{type = STEM, morpheme = ذات}] 1
+Word = الوظائف, Stemming_results = [{type = STEM, morpheme = وظااف}] 1
+Word = السيارات, Stemming_results = [{type = STEM, morpheme = سيار}] 1
+Word = التطور, Stemming_results = [{type = STEM, morpheme = تطور}] 1
+Word = المؤسسات, Stemming_results = [{type = STEM, morpheme = ماسس}] 1
+Word = النقدي, Stemming_results = [{type = STEM, morpheme = نقد}] 1
+Word = يري, Stemming_results = [{type = STEM, morpheme = ير}] 1
+Word = الذكاء, Stemming_results = [{type = STEM, morpheme = ذكا}] 2
+Word = الذكيه, Stemming_results = [{type = STEM, morpheme = ذك}] 2
+Word = الباحثين, Stemming_results = [{type = STEM, morpheme = باحث}] 1
+Word = المطروح, Stemming_results = [{type = STEM, morpheme = مطروح}] 1
+Word = اليوميه, Stemming_results = [{type = STEM, morpheme = يوم}] 1
+Word = جزءا, Stemming_results = [{type = STEM, morpheme = جزا}] 1
+Word = حياتنا, Stemming_results = [{type = STEM, morpheme = حيات}] 1
+Word = الاصطناعي, Stemming_results = [{type = STEM, morpheme = اصطناع}] 2
+Word = سيؤدي, Stemming_results = [{type = STEM, morpheme = اد}] 1
+Word = البيانات, Stemming_results = [{type = STEM, morpheme = بيان}] 1
+Word = التعليميه, Stemming_results = [{type = STEM, morpheme = تعليم}] 1
+Word = تحليل, Stemming_results = [{type = STEM, morpheme = تحليل}] 1
+Word = فرص, Stemming_results = [{type = STEM, morpheme = فرص}] 1
+Word = فقدان, Stemming_results = [{type = STEM, morpheme = فقد}] 1
+Word = اساسيا, Stemming_results = [{type = STEM, morpheme = اساسي}] 1
+Word = التقنيه, Stemming_results = [{type = STEM, morpheme = تقن}] 1
+Word = الفجوه, Stemming_results = [{type = STEM, morpheme = فج}] 1
+Word = وصيانه, Stemming_results = [{type = STEM, morpheme = وصيان}] 1
+Word = العاملين, Stemming_results = [{type = STEM, morpheme = عامل}] 1
+Word = جديده, Stemming_results = [{type = STEM, morpheme = جديد}] 1
+Word = سيخلق, Stemming_results = [{type = STEM, morpheme = خلق}] 1
+Word = المهارات, Stemming_results = [{type = STEM, morpheme = مهار}] 1
+Word = اتساع, Stemming_results = [{type = STEM, morpheme = اتساع}] 1
+Word = والاخرين, Stemming_results = [{type = STEM, morpheme = اخر}] 1

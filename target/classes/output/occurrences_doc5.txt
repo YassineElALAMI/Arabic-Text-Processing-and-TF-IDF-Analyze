@@ -1,55 +1,56 @@
 Map d'occurrences pour doc5.txt
 
-كرة                  1
-استثمرت              1
-المنتخبات            1
-وسيلة                1
-اصبحت                1
-حقيقيا               1
-ملحوظا               1
-السنوات              1
-يري                  1
-مستوي                1
-التحتية              1
-الوحدة               1
-الرياضة              1
-الجمهور              1
-وبناء                1
-الوطني               1
-بمتابعة              1
-وتحظي                1
-تطورا                1
-الوطنية              1
-تعكس                 1
-يجعل                 1
-القدم                1
-للتقريب              1
-الملاعب              1
-الدولية              1
-تطوير                1
-روح                  1
-العرب                1
-الاكاديميات          1
-والانتماء            1
-العالم               1
-وتعزيز               1
-كبيرة                1
-الرياضية             2
-العديد               1
-باللعبة              1
-جماهيرية             1
-شغف                  1
-سواء                 1
-البطولات             2
-الاندية              1
-البنية               1
-الحديثة              1
-الاقليمية            1
-الدول                1
-العربي               2
-منافسا               1
-الشعوب               1
-تشهد                 1
-كاس                  1
-المختصون             1
-العربية              1
+Word = جماهيريه, Stemming_results = [{type = STEM, morpheme = جماهير}] 1
+Word = الدوليه, Stemming_results = [{type = STEM, morpheme = دول}] 1
+Word = المنتخبات, Stemming_results = [{type = STEM, morpheme = منتخب}] 1
+Word = كبيره, Stemming_results = [{type = STEM, morpheme = كبير}] 1
+Word = تعكس, Stemming_results = [{type = STEM, morpheme = تعكس}] 1
+Word = الرياضه, Stemming_results = [{type = STEM, morpheme = رياض}] 1
+Word = العديد, Stemming_results = [{type = STEM, morpheme = عديد}] 1
+Word = وسيله, Stemming_results = [{type = STEM, morpheme = وسيل}] 1
+Word = تطورا, Stemming_results = [{type = STEM, morpheme = تطور}] 1
+Word = روح, Stemming_results = [{type = STEM, morpheme = روح}] 1
+Word = الشعوب, Stemming_results = [{type = STEM, morpheme = شعوب}] 1
+Word = كره, Stemming_results = [{type = STEM, morpheme = كر}] 1
+Word = الاخيره, Stemming_results = [{type = STEM, morpheme = اخير}] 1
+Word = الوطني, Stemming_results = [{type = STEM, morpheme = وطن}] 1
+Word = شغف, Stemming_results = [{type = STEM, morpheme = شغف}] 1
+Word = سواء, Stemming_results = [{type = STEM, morpheme = سوا}] 1
+Word = الرياضيه, Stemming_results = [{type = STEM, morpheme = رياض}] 2
+Word = وبناء, Stemming_results = [{type = STEM, morpheme = وبنا}] 1
+Word = المختصون, Stemming_results = [{type = STEM, morpheme = مختص}] 1
+Word = العربيه, Stemming_results = [{type = STEM, morpheme = عرب}] 1
+Word = ملحوظا, Stemming_results = [{type = STEM, morpheme = ملحوظ}] 1
+Word = الحديثه, Stemming_results = [{type = STEM, morpheme = حديث}] 1
+Word = البطولات, Stemming_results = [{type = STEM, morpheme = بطول}] 2
+Word = اصبحت, Stemming_results = [{type = STEM, morpheme = اصبحت}] 1
+Word = كاس, Stemming_results = [{type = STEM, morpheme = كاس}] 1
+Word = تشهد, Stemming_results = [{type = STEM, morpheme = تشهد}] 1
+Word = الملاعب, Stemming_results = [{type = STEM, morpheme = ملاعب}] 1
+Word = وتعزيز, Stemming_results = [{type = STEM, morpheme = عزيز}] 1
+Word = القدم, Stemming_results = [{type = STEM, morpheme = قدم}] 1
+Word = يري, Stemming_results = [{type = STEM, morpheme = ير}] 1
+Word = التحتيه, Stemming_results = [{type = STEM, morpheme = تحت}] 1
+Word = الوطنيه, Stemming_results = [{type = STEM, morpheme = وطن}] 1
+Word = السنوات, Stemming_results = [{type = STEM, morpheme = سنو}] 1
+Word = حقيقيا, Stemming_results = [{type = STEM, morpheme = حقيقي}] 1
+Word = الانديه, Stemming_results = [{type = STEM, morpheme = اند}] 1
+Word = للتقريب, Stemming_results = [{type = STEM, morpheme = تقريب}] 1
+Word = وتحظي, Stemming_results = [{type = STEM, morpheme = حظ}] 1
+Word = الجمهور, Stemming_results = [{type = STEM, morpheme = جمهور}] 1
+Word = منافسا, Stemming_results = [{type = STEM, morpheme = منافس}] 1
+Word = البنيه, Stemming_results = [{type = STEM, morpheme = بن}] 1
+Word = يجعل, Stemming_results = [{type = STEM, morpheme = يجعل}] 1
+Word = الاقليميه, Stemming_results = [{type = STEM, morpheme = اقليم}] 1
+Word = تطوير, Stemming_results = [{type = STEM, morpheme = تطوير}] 1
+Word = مستوي, Stemming_results = [{type = STEM, morpheme = مستو}] 1
+Word = باللعبه, Stemming_results = [{type = STEM, morpheme = لعب}] 1
+Word = والانتماء, Stemming_results = [{type = STEM, morpheme = انتما}] 1
+Word = استثمرت, Stemming_results = [{type = STEM, morpheme = استثمرت}] 1
+Word = العالم, Stemming_results = [{type = STEM, morpheme = عالم}] 1
+Word = بمتابعه, Stemming_results = [{type = STEM, morpheme = تابع}] 1
+Word = الدول, Stemming_results = [{type = STEM, morpheme = دول}] 1
+Word = الوحده, Stemming_results = [{type = STEM, morpheme = وحد}] 1
+Word = العربي, Stemming_results = [{type = STEM, morpheme = عرب}] 2
+Word = العرب, Stemming_results = [{type = STEM, morpheme = عرب}] 1
+Word = الاكاديميات, Stemming_results = [{type = STEM, morpheme = اكاديمي}] 1

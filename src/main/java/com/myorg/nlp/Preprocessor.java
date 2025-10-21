@@ -1,40 +1,52 @@
 package com.myorg.nlp;
 
-import java.text.Normalizer;
-import java.util.*;
+import safar.basic.morphology.stemmer.impl.Light10Stemmer;
+import safar.basic.morphology.stemmer.interfaces.IStemmer;
+import java.util.Set;
+import java.util.List;
+import java.util.ArrayList;
 
 public class Preprocessor {
-    private final Set<String> stopWords;
+
+    private Set<String> stopWords;
+    private static final IStemmer stemmer = new Light10Stemmer();
 
     public Preprocessor(Set<String> stopWords) {
         this.stopWords = stopWords;
     }
 
     public List<String> process(String text) {
-        text = normalizeArabic(text);
-        text = text.toLowerCase();
-        String[] raw = text.split("[^\\p{L}]+");
-        List<String> tokens = new ArrayList<>();
+        // Normalize text
+        text = normalize(text);
+        // Split into tokens
+        String[] tokens = text.split("\\s+");
+        List<String> result = new ArrayList<>();
 
-        for (String t : raw) {
-            if (t.isEmpty() || stopWords.contains(t)) continue;
-            String stem = stemWithSafar(t);
-            tokens.add(stem);
+        for (String token : tokens) {
+            if (!stopWords.contains(token) && !token.isBlank()) {
+                String stem = stemWithSafar(token);
+                result.add(stem);
+            }
         }
-        return tokens;
+        return result;
     }
 
-    private String normalizeArabic(String text) {
-        return Normalizer.normalize(text, Normalizer.Form.NFKC)
-                .replaceAll("[إأآا]", "ا")
-                .replaceAll("ى", "ي")
-                .replaceAll("ؤ", "و")
-                .replaceAll("ئ", "ي")
-                .replaceAll("ً|ٌ|ٍ|َ|ُ|ِ|ّ|ْ", ""); // remove diacritics
+    private String normalize(String text) {
+        // Basic Arabic normalization
+        return text.replaceAll("[^\\p{IsArabic}\\s]", "")
+                   .replaceAll("[ًٌٍَُِّْ]", "")
+                   .replace("أ", "ا").replace("إ", "ا").replace("آ", "ا")
+                   .replace("ة", "ه").replace("ى", "ي");
     }
 
     private String stemWithSafar(String token) {
-        // TODO: Replace with real SAFAR call, e.g. SafarStemmer.stem(token)
-        return token;
+        try {
+            List<?> results = stemmer.stem(token);
+            return results.isEmpty() ? token : results.get(0).toString();
+        } catch (Exception e) {
+            System.err.println("Error stemming token '" + token + "': " + e.getMessage());
+            return token;
+        }
     }
 }
+

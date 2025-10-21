@@ -25,7 +25,7 @@
             <systemPath>${project.basedir}/lib/SAFAR_v2.jar</systemPath>
         </dependency>
 
-        <!-- Commons IO for easy file reading -->
+        <!-- Commons IO for file handling -->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
@@ -35,15 +35,30 @@
 
     <build>
         <plugins>
-            <!-- Run with mvn exec:java -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.3.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <configuration>
                     <mainClass>com.myorg.nlp.Main</mainClass>
+                    <classpathScope>compile</classpathScope>
+                    <includeProjectDependencies>true</includeProjectDependencies>
+                    <includePluginDependencies>true</includePluginDependencies>
+                    <additionalClasspathElements>
+                        <additionalClasspathElement>${project.basedir}/lib/SAFAR_v2.jar</additionalClasspathElement>
+                    </additionalClasspathElements>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
+
+
 </project>

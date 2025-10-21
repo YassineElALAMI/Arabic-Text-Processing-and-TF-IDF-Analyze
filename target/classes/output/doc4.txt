@@ -1,22 +1,22 @@
 Top TF-IDF terms for doc4.txt
 
-الذكية               0,08072
-الذكاء               0,08072
-الاصطناعي            0,06512
-العاملين             0,04036
-السيارات             0,04036
-الموسسات             0,04036
-اساسيا               0,04036
-تحليل                0,04036
-البشرية              0,04036
-سيخلق                0,04036
-الهواتف              0,04036
-لتشمل                0,04036
-التطور               0,04036
-سيودي                0,04036
-القيادة              0,04036
-ذوي                  0,04036
-والبرمجة             0,04036
-وصيانة               0,04036
-اخرون                0,04036
-اتساع                0,04036
+Word = الذكاء, Stemming_results = [{type = STEM, morpheme = ذكا}] 0,08072
+Word = الذكيه, Stemming_results = [{type = STEM, morpheme = ذك}] 0,08072
+Word = الاصطناعي, Stemming_results = [{type = STEM, morpheme = اصطناع}] 0,06512
+Word = السؤال, Stemming_results = [{type = STEM, morpheme = ساال}] 0,04036
+Word = المناهج, Stemming_results = [{type = STEM, morpheme = مناهج}] 0,04036
+Word = المستقبل, Stemming_results = [{type = STEM, morpheme = مستقبل}] 0,04036
+Word = مهارات, Stemming_results = [{type = STEM, morpheme = مهار}] 0,04036
+Word = ذوي, Stemming_results = [{type = STEM, morpheme = ذو}] 0,04036
+Word = الانظمه, Stemming_results = [{type = STEM, morpheme = انظم}] 0,04036
+Word = والبرمجه, Stemming_results = [{type = STEM, morpheme = برمج}] 0,04036
+Word = يخشي, Stemming_results = [{type = STEM, morpheme = يخش}] 0,04036
+Word = الهواتف, Stemming_results = [{type = STEM, morpheme = هواتف}] 0,04036
+Word = اخرون, Stemming_results = [{type = STEM, morpheme = اخر}] 0,04036
+Word = توصي, Stemming_results = [{type = STEM, morpheme = توص}] 0,04036
+Word = لتشمل, Stemming_results = [{type = STEM, morpheme = شمل}] 0,04036
+Word = التفكير, Stemming_results = [{type = STEM, morpheme = تفكير}] 0,04036
+Word = القياده, Stemming_results = [{type = STEM, morpheme = قياد}] 0,04036
+Word = بتحديث, Stemming_results = [{type = STEM, morpheme = حديث}] 0,04036
+Word = البشريه, Stemming_results = [{type = STEM, morpheme = بشر}] 0,04036
+Word = ذاتيه, Stemming_results = [{type = STEM, morpheme = ذات}] 0,04036

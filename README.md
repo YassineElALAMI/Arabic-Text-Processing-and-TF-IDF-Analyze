@@ -88,7 +88,7 @@ mvn -version
 ### 3. Clone this project
 
 ```bash
-git clone https://github.com/yourusername/ArabicNLPProject.git
+git clone https://github.com/yassineELALAMI/Arabic-Text-Processing-and-TF-IDF-Analyze.git
 cd ArabicNLPProject
 ```
 
